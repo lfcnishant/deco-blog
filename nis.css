@@ -429,9 +429,16 @@
 }
 
 .ppb{
+    position: relative;
     height: 100%;
     width: 100%;
     background-color: #000000;
+}
+
+.ppba{
+    position: absolute;
+    top: 59px;
+    left: 193px;
 }
 
 .ppt{
@@ -453,6 +460,13 @@
     height: 100%;
     width: 100%;
     background-color: #3a3c49;
+    position: relative;
+}
+
+.npba{
+    position: absolute;
+    top: 59px;
+    left: 321px;
 }
 
 .npt{
@@ -565,6 +579,13 @@
     height: 100%;
     width: 59px;
     background-color: #212121;
+    position: relative;
+}
+
+.whitefbi{
+    position: absolute;
+    top: 16px;
+    left: 26px;
 }
 
 .mifbwrite{
@@ -581,41 +602,209 @@
     color: #999999;
     font-family: "Hind";
     font-weight: 400;
-    margin-left: 45px;
+    margin-left: 47px;
 }
 
 .mitwi {
     float: left;
     height: 100%;
     width: 256px;
-    border: 1px solid red;
     margin-left: 28px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.mitwii{
+    position: absolute;
+    top: 16px;
+    left: 24px;
+}
+
+.mitwis{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 52px;
+    color: #999999;
+    font-family: "Hind";
+    font-weight: 400;
+    margin-left: 117px;
 }
 
 .mitum{
+    position: relative;
     float: left;
     height: 100%;
     width: 263px;
-    border: 1px solid red;
-    margin-left: 31px;
+    margin-left: 42px;
+    background-color: #ffffff;
+}
+
+.mitumi{
+    position: absolute;
+    top: 16px;
+    left: 24px;
+}
+
+.mitums{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 51px;
+    color: #999999;
+    font-family: "Hind";
+    font-weight: 400;
+    margin-left: 113px;
 }
 
 .mipin{
+    background-color: #ffffff;
     float: right;
     height: 100%;
     width: 263px;
-    border: 1px solid red;
-    
+    position: relative;
 }
+
+.mipini{
+    position: absolute;
+    top: 17px;
+    left: 25px;
+}
+
+.mipins{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 52px;
+    color: #999999;
+    font-family: "Hind";
+    font-weight: 400;
+    margin-left: 108px;
+}
+
 
 .recomendedp{
     float: left;
-    border: 1px solid black;
     margin-top: 58px;
     margin-left: 52px;
     width: 1140px;
     height: 389px;
+    background-color: white;
 }
+
+
+.rnar{
+    float: left;
+    height: 72px;
+    width: 100%;
+}
+
+.recop{
+    float: left;
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: #212121;
+    font-family: "Montserrat";
+    margin-top: 45px;
+    margin-left: 32px;
+    font-weight: 800;
+}
+
+.rnarar{
+    float: right;
+    height: 100%;
+    width: 69px;
+    margin-right: 28px;
+}
+
+.rnararl, .rnararr{
+    width: 29px;
+    height: 30px;
+    background-color: #464646;
+    float: left;
+    margin-top: 42px;
+    position: relative;
+}
+
+.rnararr{
+    float: right;
+}
+
+.rnararla, .rnararra{
+    position: absolute;
+    top: 5px;
+    left: 4px;
+}
+
+.recomendedp2{
+    float: left;
+    height: 245px;
+    width: 100%;
+}
+
+.recomendedp21{
+    float: left;
+    height: 217px;
+    width: 1078px;
+    margin-left: 30px;
+    margin-top: 27px;
+
+}
+
+.recom21, .recom22, .recom23{
+    height: 100%;
+    width: 337px;
+    float: left;
+    background-color: #464646;
+}
+
+.recom22{
+    margin-left: 29px;
+}
+
+.recom23{
+    float: right;
+}
+
+.recola{
+    float: left;
+    height: 35px;
+    width: 100%;
+}
+
+.recola1, .recola2, .recola3{
+    float: left;
+    height: 100%;
+    width: 308px;
+    margin-left: 48px;
+
+}
+
+.recola1s, .recola2s, .recola3s{
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #212121;
+    font-family: "Montserrat";
+    font-weight: 700;
+    margin-top: 17px;
+}
+
+.recola3s{
+    font-size: 14px;
+}
+
+.recola2{
+    margin-left: 71px;
+    width: 294px;
+    margin-top: 3px;
+
+}
+
+.recola3{
+    margin-left: 71px;
+    width: 310px;
+    margin-top: 3px;
+
+}
+
+
 
 /* side */
 
